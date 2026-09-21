@@ -1,0 +1,18 @@
+# ---- 虚拟环境与模型:体积过大,不进仓库 ----
+# 部署时按 部署说明.md 准备(建 venv 装 requirements.txt;模型放 models/ 下)
+.venv/
+models/
+
+# ---- 私钥:每个人用自己申请的那把(模板见 .env.example) ----
+.env
+
+# ---- Python 缓存 ----
+__pycache__/
+*.py[cod]
+
+# ---- 本机调试产生的数据库/代码备份、Office 临时文件 ----
+*.bak*
+data/~$*
+
+# ---- MinerU 临时输出 ----
+out/
